@@ -1,0 +1,111 @@
+*{
+  list-style: none;
+  text-decoration: none;
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: black;
+}
+
+.inner_header{
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  display: block;
+  background-color: black;
+}
+
+.logo{
+  display: table;
+  float: left;
+  height: 80px;
+  width: 80px;
+}
+
+.logo-container
+{
+  display: table;
+  margin-left: 2%;
+  height: 100%;
+  float: left;
+}
+
+.logo-container h1{
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  font-size: 40px;
+}
+
+.logo-container h1 a{
+  color:white;
+}
+
+.navigation{
+  float: right;
+  height: 100%;
+}
+
+.navigation a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 15px;
+}
+
+.navigation a li{
+  color: white;
+  height: 100%;
+  display: table-cell;
+  padding: 15px 0px;
+}
+
+.background{
+  background-color: #2A2B4C;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.box{
+  background-color: #1D1D1D;
+  border: 2px solid black;
+  width: 80%;
+}
+
+.fondmenujeu{
+  padding-top: 2%;
+  height: 400px;
+  width: 400px;
+}
+
+p{
+  color: white;
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+li{
+  color: white;
+}
+
+.title{
+  text-align: center;
+}
+
+.text{
+  margin-left: 5%;
+  margin-right: 5%;
+}
